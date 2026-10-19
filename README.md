@@ -97,9 +97,8 @@ Prototype/
 │   ├── hackathon_ideas.md
 │   └── pet_health_forecast_idea.md
 ├── public/                   # Static assets
-│   ├── assets/
-│   │   └── mali-cat-CSOzRKT-.jpg
-│   └── favicon.ico
+│   └── assets/
+│       └── mali-cat-CSOzRKT-.jpg
 ├── src/
 │   ├── components/           # UI Components
 │   │   ├── ui/
