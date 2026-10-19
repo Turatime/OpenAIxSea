@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans Thai", system-ui, sans-serif;
+  --font-display: "IBM Plex Sans Thai", system-ui, sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-destructive-soft: var(--destructive-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-info: var(--info);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-band: var(--band);
+
+  --shadow-soft: 0 16px 64px -20px oklch(30% 0.03 165 / 0.16);
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+:root {
+  --radius: 0.5rem;
+  --background: oklch(98.8% 0.003 160);
+  --foreground: oklch(27% 0.026 165);
+  --card: oklch(100% 0 0);
+  --card-foreground: var(--foreground);
+  --popover: var(--card);
+  --popover-foreground: var(--foreground);
+  --primary: oklch(49% 0.085 172);
+  --primary-foreground: oklch(99.5% 0 0);
+  --secondary: oklch(94% 0.025 169);
+  --secondary-foreground: oklch(35% 0.055 170);
+  --muted: oklch(95% 0.008 170);
+  --muted-foreground: oklch(52% 0.019 170);
+  --accent: oklch(94% 0.025 169);
+  --accent-foreground: oklch(43% 0.085 65);
+  --warning: oklch(64% 0.13 65);
+  --warning-soft: oklch(97% 0.027 80);
+  --info: oklch(55% 0.095 235);
+  --destructive: oklch(58% 0.2 27);
+  --destructive-foreground: oklch(99% 0.01 85);
+  --destructive-soft: oklch(95% 0.03 27);
+  --border: oklch(92% 0.009 165);
+  --input: var(--border);
+  --ring: var(--primary);
+  --band: oklch(55% 0.11 165 / 0.14);
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
