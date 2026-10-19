@@ -4,6 +4,9 @@
 > แนวทาง: **ข้อ 1 (Autonomous & Adaptive AI) + ข้อ 3 (Deep Domain AI)**  
 > *Prototype แอปพยากรณ์สุขภาพสัตว์เลี้ยงจากพฤติกรรมประจำวัน (ข้อมูลจำลอง)*
 
+- 🌐 **Live Demo (GitHub Pages):** [https://turatime.github.io/OpenAIxSea/](https://turatime.github.io/OpenAIxSea/)
+- 📄 **Executive Summary / Proposal:** [ONEPAGER.md](./ONEPAGER.md)
+
 ---
 
 ## 📌 บทนำ (Overview)

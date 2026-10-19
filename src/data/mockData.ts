@@ -22,7 +22,7 @@ export const PET_PROFILE: PetProfile = {
   name: 'มะลิ',
   species: 'แมว',
   ageYears: 4,
-  avatar: '/assets/mali-cat-CSOzRKT-.jpg',
+  avatar: `${import.meta.env.BASE_URL}assets/mali-cat-CSOzRKT-.jpg`,
 };
 
 const NOISE = [
